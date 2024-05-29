@@ -1,0 +1,32 @@
+$if(has-frontmatter)$
+\frontmatter
+$endif$
+$if(title)$
+$if(beamer)$
+\frame{\titlepage}
+$else$
+\maketitle
+$endif$
+$if(abstract)$
+\begin{abstract}
+$abstract$
+\end{abstract}
+$endif$
+$endif$
+
+%% Configuración de fancyhdr
+\pagestyle{fancy}
+\thispagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[L]{}
+\fancyhead[C]{\curso \\ \universidad\vfill}
+\fancyhead[R]{\laboratorio\vfill}
+
+\cfoot{Pág. \thepage}
+
+% Imagen del logo de la universidad
+$if(logo)$
+  \newcommand{\logo}{$logo$}
+  \lhead{\includegraphics[width=1.7cm]{\logo}}
+$endif$

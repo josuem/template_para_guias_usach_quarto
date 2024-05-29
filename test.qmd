@@ -1,0 +1,40 @@
+---
+title: "Template para guias Usach en Quarto"
+author: "Author"
+date: 2024-05-29
+fecha_entrega: 2024-06-01
+universidad: 
+    - Universidad de Santiago de Chile
+    - Departamento de Física - Ingeniería Física
+curso: Electrónica Digital y Microcontroladores
+laboratorio:
+    - Laboratorio 1.
+    - Prueba
+logo: "template/logo_usach.eps"
+latex-tinytex: false
+format:
+  pdf:
+    toc: false
+    documentclass: scrartcl
+    papersize: letter
+    number-sections: true
+    colorlinks: true
+    keep-tex: false
+    pdf-engine: pdflatex
+    template-partials:
+        - ./template/before-title.tex
+        - ./template/before-body.tex
+        - ./template/after-body.tex
+---
+
+# Introducción
+\lipsum[1-2] 
+
+# Métodos
+\lipsum[2]
+
+# Resultados
+\lipsum[3]
+
+# Discusión
+\lipsum[4]
