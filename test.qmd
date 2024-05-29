@@ -28,7 +28,7 @@ format:
 ---
 
 # Introducción
-\lipsum[1-2] 
+\lipsum[1-5] 
 
 # Métodos
 \lipsum[2]
