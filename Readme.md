@@ -46,7 +46,12 @@ Donde las variables agregadas (opcionales) son:
 - **laboratorio**: Multilinea. Agrega un texto al costado superior derecho. Pensado para agregar la información de los laboratorios o de las pruebas. 
 - **logo**: Logo en formato `eps` que será agregado en la esquina superior izquierda del header.
 
+# Ejemplo
+Ver el archivo [test.qmd](test.qmd) como un ejemplo completo:
+
+![test.pdf](test.pdf)
 
 # TODO
-- Agregar el mensaje final en un archivo separado, que no dependa del `if` utilizado por `pandoc`.
-- Agregar el template de forma global para los archivos quarto.
+- [ ] Agregar variable para cambiar el color de las lineas de separación del header/footer.
+- [ ] Agregar el mensaje final en un archivo separado, que no dependa del `if` utilizado por `pandoc`.
+- [ ] Agregar el template de forma global para los archivos quarto.

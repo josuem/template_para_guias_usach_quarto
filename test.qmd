@@ -5,8 +5,8 @@ date: 2024-05-29
 fecha_entrega: 2024-06-01
 universidad: 
     - Universidad de Santiago de Chile
-    - Departamento de Física - Ingeniería Física
-curso: Electrónica Digital y Microcontroladores
+    - Departamento - Carrera
+curso: Curso de Quarto Template
 laboratorio:
     - Laboratorio 1.
     - Prueba
