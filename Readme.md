@@ -49,7 +49,7 @@ Donde las variables agregadas (opcionales) son:
 # Ejemplo
 Ver el archivo [test.qmd](test.qmd) como un ejemplo completo:
 
-![test.pdf](test.pdf)
+![Ejemplo de pdf generado con el template](test.png)
 
 # TODO
 - [ ] Agregar variable para cambiar el color de las lineas de separación del header/footer.
