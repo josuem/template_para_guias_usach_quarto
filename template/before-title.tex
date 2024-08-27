@@ -12,13 +12,15 @@
   footskip=1cm
 }
 
-%% Defino firasans como fuente por defecto
+%% Defino firasans como variable
 \usepackage{fontspec}
-\setmainfont{Fira Sans}
-\setsansfont{Fira Sans}
-
-% Para instalar Fira Math buscar e instalar firamath en miktex
-\setmathfont{Fira Math}
+$if(firasans)$
+  \setmainfont{Fira Sans}
+  \setsansfont{Fira Sans}
+  
+  % Para instalar Fira Math buscar e instalar firamath en miktex
+  \setmathfont{Fira Math}  
+$endif$
 
 
 %% Variables propias
